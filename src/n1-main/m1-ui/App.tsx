@@ -13,6 +13,9 @@ const App = () => {
                 <HashRouter>
                     <Header />
                     <RoutesComponent/>
+                    <div className="workInProgressMessage">
+                        <div>The project is under development.</div>
+                    </div>
                 </HashRouter>
             </Provider>
         </div>
